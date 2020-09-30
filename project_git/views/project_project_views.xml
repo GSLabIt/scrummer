@@ -22,8 +22,8 @@
                             <templates>
                                 <t t-name="kanban-box">
                                     <div class="oe_kanban_global_click" style="background-color: #ececec;">
-                                        <div class="o_dropdown_kanban" style="visibility: visible;">
-                                             <a name="icon" role="button" href="#" class="btn btn-sm dropdown-toggle" data-toggle="dropdown">
+                                        <div class="o_dropdown_kanban dropdown" style="visibility: visible;">
+                                             <a name="icon" role="button" href="#" class="dropdown-toggle o-no-caret btn" data-toggle="dropdown">
                                             </a>
                                         </div>
                                         <div class="o_kanban_tags_section oe_kanban_partner_categories"/>
